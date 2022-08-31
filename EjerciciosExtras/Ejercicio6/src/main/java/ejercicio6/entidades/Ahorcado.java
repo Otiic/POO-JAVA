@@ -116,7 +116,7 @@ public class Ahorcado {
 
         while (letrasEncontradas != palabra.length && intentos > 0) {
             System.out.println("");
-            System.out.println("------------------------------------------------------------------------");
+            System.out.println("-----------------------------<Juego>--------------------------------");
             System.out.println("");
             intentos();
             intentos--;
@@ -154,7 +154,7 @@ public class Ahorcado {
             vecesEncontrada = buscar(letra);
 
             System.out.println("");
-            System.out.println("------------------------------------------------------------------------");
+            System.out.println("-----------------------------<Juego>--------------------------------");
 
             if (vecesEncontrada > 0) {
                 System.out.println("");
@@ -175,7 +175,7 @@ public class Ahorcado {
         }
 
         System.out.println("");
-        System.out.println("------------------------------------------------------------------------");
+        System.out.println("-------------------------------<FinJuego>-------------------------------");
         System.out.println("");
 
         if (letrasEncontradas == palabra.length) {
